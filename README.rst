@@ -397,6 +397,11 @@ TLS handshake
 * From now on the TLS session transmits the application (HTTP) data encrypted
   with the agreed symmetric key.
 
+* The tranport layer ensures reliable and error free end-to-end communication.
+  it divides data into smaller units called packets and assigns metadata to 
+  facilitate efficient transfer over the internet. this layer shields upper-layer
+  application from the complexities of data transmission.
+
 If a packet is dropped
 ----------------------
 
